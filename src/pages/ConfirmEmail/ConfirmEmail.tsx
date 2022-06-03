@@ -21,7 +21,7 @@ const ConfirmEmail = () => {
     }, [data]);
 
     return (
-        <div className='overall-container'>
+        <>
             <Typography
                 variant='h1'
                 sx={{ py: 2, display: 'flex', justifyContent: 'center' }}
@@ -29,10 +29,10 @@ const ConfirmEmail = () => {
                 Wellcome to Goodvets!
             </Typography>
             <div className='dog-container'>
-                <img src='perro-imagen.png' alt='dog' />
+                <img src='assets/perro-imagen.png' alt='dog' />
             </div>
             <div className='subtitle'>We just confirmed your email.</div>
-        </div>
+        </>
     );
 }
 
